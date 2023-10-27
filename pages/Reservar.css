@@ -1,0 +1,42 @@
+.reservar {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .reservar__title {
+    font-size: 1.1rem; 
+    margin-bottom: 10px;
+    cursor: pointer; 
+  }
+  
+  .reservar__form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .reservar__form label {
+    margin-bottom: 5px;
+    color: var(--heading-color); 
+    font-weight: 500; 
+    font-size: 0.9rem; 
+  }
+  
+  .reservar__form input {
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 0.9rem; 
+  }
+  
+  .reservar__btn {
+    background-color: var(--primary-color); 
+    color: #fff;
+    border: none;
+    padding: 0.2rem 0.5rem !important;
+    cursor: pointer;
+    font-size: 0.9rem; 
+    text-decoration: none; 
+  }
+  
+  .reservar__btn:hover {
+    color: #fff; 
+  }
